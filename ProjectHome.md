@@ -4,5 +4,5 @@ The circular chromosome of E. coli has been suggested to fold into a collection 
 ## Citing us ##
 Qin Ma, Yanbin Yin, Mark Shell, Han Zhang, Guojun Li, Ying Xu, Computational Analyses of Transcriptomic Data Reveal the Dynamic Organization of the E. coli Chromosome under Different Conditions. Accepted by Nucleic Acids Research, 2013.
 
-## Contact ##:
+## Contact ##
 Any questions, problems, bugs are welcome and should be dumped to Qin Ma <**_qin.ma@sdstate.edu_**>
