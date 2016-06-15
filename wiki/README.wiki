@@ -37,6 +37,6 @@ Version 1.0
 
 =Contact=
 Any questions, problems, bugs are welcome and should be dumped to
-Qin Ma <maqin@uga.edu>
+Qin Ma <qin.ma@sdstate.edu>
 
 Creation: Dec. 16, 2011
