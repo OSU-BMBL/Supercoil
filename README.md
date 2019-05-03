@@ -16,6 +16,7 @@ Enter the folder "supercoil-master" and type "make" then the compiled codes are 
 
 ```
 cd supercoil-master
+make
 ```
 
 
