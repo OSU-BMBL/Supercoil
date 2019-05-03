@@ -39,7 +39,7 @@ are provided.
 ./supercoil -i DATA/NC_000913.expr -j DATA/NC_000913.ptt  -o DATA/NC_000913.gi.operon -p DATA/NC_000913.pathway -a DATA/NC_000913.NAP -e DATA/NC_000913.HEG -D DATA/expression-value -n 0.3 -g 0.5 -t 15
 ```
 
-- Identify the weight parameters dynamically [train the parameters (n, g, t) optimizing the accurracy of NAP binding sites mapping]
+- Identify the weight parameters dynamically, i.e.,train the parameters (n, g, t) optimizing the accurracy of NAP binding sites mapping
 
 ```
 ./supercoil -i DATA/NC_000913.expr -j DATA/NC_000913.ptt  -o DATA/NC_000913.gi.operon -p DATA/NC_000913.pathway -a DATA/NC_000913.NAP -e DATA/NC_000913.HEG -D DATA/expression-value -M
