@@ -12,7 +12,11 @@ Simply put "supercoil-master.zip" in any directory.
 unzip supercoil-master.zip && rm unzip supercoil-master.zip
 ```
 
-Enter the folder "supercoil" and type "make" then the compiled codes are within the same directory as the source.
+Enter the folder "supercoil-master" and type "make" then the compiled codes are within the same directory as the source.
+
+```
+cd supercoil-master
+```
 
 
 #### Inputs and outputs
