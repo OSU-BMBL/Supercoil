@@ -1,53 +1,68 @@
-=================
-Usage
-==================
+
+## Usage
+
 This software provides a systematic computational framework to detect supercoils of bacterial chromosome. 
 
-==================
-Installation
-==================
-Simply put "supercoil.tar.gz" in any directory, 
 
-$ tar zxvf supercoil.tar.gz
+#### Installation
 
-enter the folder "supercoil" and type "make" then the compiled codes are within the same directory as the source.
+Simply put "supercoil-master.zip" in any directory.
 
-==================
-Inputs and outputs
-==================
-The major program in the provided package is `supercoil`, it can parse two 
+```
+unzip supercoil-master.zip
+```
+
+Enter the folder "supercoil" and type "make" then the compiled codes are within the same directory as the source.
+
+
+#### Inputs and outputs
+
+The major program in the provided package is \`supercoil\`, it can parse two 
 formats of files, discrete data and continuous data, and examples for each
-are provided. See help and look at all available options.
+are provided. 
 
-$ ./supercoil -h
+- See help and look at all available options.
 
-1. run the program just consider pathway and microarray information
-	
-$ ./supercoil -i DATA/NC_000913.expr -j DATA/NC_000913.ptt  -o DATA/NC_000913.gi.operon -p DATA/NC_000913.pathway -n 0.3 -g 0.5 -t 15
+```
+./supercoil -h
+```
 
-2. run the program considering NAP binding sites and HEGs besides pathway and microarray
-	
-$ ./supercoil -i DATA/NC_000913.expr -j DATA/NC_000913.ptt  -o DATA/NC_000913.gi.operon -p DATA/NC_000913.pathway -a DATA/NC_000913.NAP -e DATA/NC_000913.HEG -D DATA/expression-value -n 0.3 -g 0.5 -t 15
+-  Run the program just consider pathway and microarray information
 
-3. identify the weight parameters dynamically [train the parameters (n, g, t) optimizing the accurracy of NAP binding sites mapping]
+```
+./supercoil -i DATA/NC_000913.expr -j DATA/NC_000913.ptt  -o DATA/NC_000913.gi.operon -p DATA/NC_000913.pathway -n 0.3 -g 0.5 -t 15
+```
 
-$ ./supercoil -i DATA/NC_000913.expr -j DATA/NC_000913.ptt  -o DATA/NC_000913.gi.operon -p DATA/NC_000913.pathway -a DATA/NC_000913.NAP -e DATA/NC_000913.HEG -D DATA/expression-value -M
+- Run the program considering NAP binding sites and HEGs besides pathway and microarray
 
-$ perl analysis_dynamic.pl DATA/NC_000913.expr.dynamic > DATA/NC_000913.expr.dynamic.stat
+```
+./supercoil -i DATA/NC_000913.expr -j DATA/NC_000913.ptt  -o DATA/NC_000913.gi.operon -p DATA/NC_000913.pathway -a DATA/NC_000913.NAP -e DATA/NC_000913.HEG -D DATA/expression-value -n 0.3 -g 0.5 -t 15
+```
 
-==================
-Changelog
-==================
-Version 0.1 
-- prototype of algorithm
+- Identify the weight parameters dynamically [train the parameters (n, g, t) optimizing the accurracy of NAP binding sites mapping]
+
+```
+./supercoil -i DATA/NC_000913.expr -j DATA/NC_000913.ptt  -o DATA/NC_000913.gi.operon -p DATA/NC_000913.pathway -a DATA/NC_000913.NAP -e DATA/NC_000913.HEG -D DATA/expression-value -M
+```
+
+- To get some basic stats
+
+```
+perl analysis_dynamic.pl DATA/NC_000913.expr.dynamic > DATA/NC_000913.expr.dynamic.stat
+```
+
+#### Changelog
+
+Version 1.0
+prototype of algorithm
 2011.11.30
 
-==================
-Contact
-==================
+
+#### Contact
+
 Any questions, problems, bugs are welcome and should be dumped to
-Qin Ma <maqin2001@gmail.com>
+Qin Ma <Qin.Ma@osumc.edu>
 
 Creation: Dec. 16, 2011
 
-#--------------------------------------------------------------------------#
+
