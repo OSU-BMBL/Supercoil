@@ -5,7 +5,7 @@ This software provides a systematic computational framework to detect supercoils
 
 #### Environment
 Linux system is recommended.
-Ubuntu Ubuntu 18.04.2 LTS is used for testing.
+Ubuntu 18.04.2 LTS is used for testing.
 
 #### Installation
 
