@@ -3,6 +3,9 @@
 
 This software provides a systematic computational framework to detect supercoils of bacterial chromosome. 
 
+#### Environment
+Linux system is recommended.
+Ubuntu Ubuntu 18.04.2 LTS is used for testing.
 
 #### Installation
 
