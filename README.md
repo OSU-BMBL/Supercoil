@@ -10,7 +10,7 @@ The circular chromosome ofEscherichia  colihasbeen suggested to fold into a coll
 Linux system is recommended.
 Ubuntu 18.04.2 LTS is used for testing. (5/9/2019)
 
-#Usage
+# Usage
 
 ## Installation
 
